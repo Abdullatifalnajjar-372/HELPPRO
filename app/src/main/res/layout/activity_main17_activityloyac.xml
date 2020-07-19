@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main17Activityloyac"
+    android:background="@drawable/nsadk6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/emal5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="marketing@loyac.org"
+                android:textColor="#00FFFFFF" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar8"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="297dp"
+                android:layout_marginTop="39dp"
+                android:layout_marginEnd="62dp"
+                android:background="@color/grey"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+
+
+            <Button
+                android:id="@+id/tskappa5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView45"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="#FFFFFF"
+                android:text="للتسجيل"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/textView46"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="@color/grey"
+                android:text="الالتزام"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/textView47"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="@color/grey"
+                android:text="كويتي"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView49"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="@color/grey"
+                android:text="اتقان اللغة الانجليزية"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="251dp"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/loyac1" />
+
+            <TextView
+                android:id="@+id/kappa5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="105dp"
+                android:layout_marginEnd="79dp"
+                android:text="LOYAC"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/editText5"
+                android:layout_width="324dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="195dp"
+                android:layout_marginEnd="11dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="دورة لوياك للشباب هدفها صنع مستقبل الكويت من خلال شبابها"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/editText5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="200dp"
+                android:text="المتطلبات"
+                android:textColor="@color/grey"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView48"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="108dp"
+                android:background="@color/grey"
+                android:text="عمر بين 15 -19 سنة"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tskappa5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="225dp"
+                android:background="#FFFFFF"
+                android:foreground="@drawable/insta1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/button27"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="#FFFFFF"
+                android:text="الرجوع"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

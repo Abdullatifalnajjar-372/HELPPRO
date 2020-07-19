@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main28Activitykarate"
+    android:background="@drawable/nsadk6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/emal16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abdullatif@gmail.com"
+                android:textColor="#00FFFFFF" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar18"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="297dp"
+                android:layout_marginTop="39dp"
+                android:layout_marginEnd="62dp"
+                android:background="@color/grey"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <Button
+                android:id="@+id/instag11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/log6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="225dp"
+                android:background="#FFFFFF"
+                android:foreground="@drawable/insta1" />
+
+            <Button
+                android:id="@+id/rgoo11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/instag11"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="#FFFFFF"
+                android:text="الرجوع"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/log6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/fra21"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="#FFFFFF"
+                android:text="للتسجيل"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/fra21"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/fra22"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="84dp"
+                android:background="@color/grey"
+                android:text="الالتزام"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/fra22"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/fra24"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="84dp"
+                android:background="@color/grey"
+                android:text="الشغف للتعلم"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/fra23"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/mta6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="84dp"
+                android:background="@color/grey"
+                android:text="صور شخصية"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/img11"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="43dp"
+                android:layout_marginEnd="252dp"
+                app:srcCompat="@drawable/judo" />
+
+            <TextView
+                android:id="@+id/tit6"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="112dp"
+                android:layout_marginEnd="28dp"
+                android:text="الدفاع عن النفس"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/shr6"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/tit6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="154dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="دورة احترافية لتعليم اساليب الدفاع عن النفس للاطفال"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/mta6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignTop="@id/shr6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="170dp"
+                android:text="المتطلبات"
+                android:textColor="@color/grey"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/fra24"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/fra23"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="94dp"
+                android:background="@color/grey"
+                android:text="العمر 7 الى 14 سنة"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

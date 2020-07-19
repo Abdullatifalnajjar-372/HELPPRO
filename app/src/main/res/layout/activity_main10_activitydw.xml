@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main10Activitydw"
+    android:background="@drawable/nsadk2">
+
+    <Button
+        android:id="@+id/back8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="718dp"
+        android:layout_marginEnd="158dp"
+        android:background="#FFFFFF"
+        android:text="الرجوع"
+        android:textColor="@color/grey"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/dawrat2"
+        android:layout_width="300dp"
+        android:layout_height="74dp"
+        android:layout_alignTop="@+id/dwrat"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="55dp"
+        android:background="@color/grey"
+        android:text="دورات للأطفال"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/dawrat"
+        android:layout_width="300dp"
+        android:layout_height="74dp"
+        android:layout_alignTop="@+id/dawrat2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="28dp"
+        android:background="@color/grey"
+        android:text="دورات للشباب"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/dawrat3"
+        android:layout_width="300dp"
+        android:layout_height="74dp"
+        android:layout_alignTop="@+id/dawrat2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="28dp"
+        android:background="@color/grey"
+        android:text="دورات للكبار"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/dwrat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="16dp"
+        android:text="تبي دورات وبرامج ؟"
+        android:textSize="45sp" />
+</RelativeLayout>

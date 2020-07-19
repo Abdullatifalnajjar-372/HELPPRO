@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main6Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar32"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="297dp"
+                android:layout_marginTop="39dp"
+                android:layout_marginEnd="62dp"
+                android:background="@color/grey"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <TextView
+                android:id="@+id/mno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="74dp"
+                android:layout_marginEnd="51dp"
+                android:text="منو احنا ؟"
+                android:textColor="@color/grey"
+                android:textSize="55sp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="401dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="206dp"
+                android:layout_marginEnd="10dp"
+                android:text="تطبيق نساعدك هو برنامج يساعد الناس على مساعدة غيرهم من خلال عرض الوظائف المتعددة ويختار العميل الوظيفة التي تناسبه, وايضا يتمتع التطبيق بجانب خاص لتطوير الذات من خلال عرض الدورات المختلفة لكل الفئات العمرية"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_alignTop="@+id/textView51"
+                android:layout_marginTop="286dp"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/logo3" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:layout_alignTop="@+id/imageView12"
+                android:layout_marginTop="422dp"
+                android:layout_centerHorizontal="true"
+                android:background="#FFFFFF"
+                android:text="الرجوع"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

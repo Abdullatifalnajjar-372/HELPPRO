@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main24Activitysci"
+    android:background="@drawable/nsadk6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/emal12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abdullatif@gmail.com"
+                android:textColor="#00FFFFFF" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar14"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="297dp"
+                android:layout_marginTop="39dp"
+                android:layout_marginEnd="62dp"
+                android:background="@color/grey"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <Button
+                android:id="@+id/instag7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/log2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="225dp"
+                android:background="#FFFFFF"
+                android:foreground="@drawable/insta1" />
+
+            <Button
+                android:id="@+id/rgoo7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/instag7"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="#FFFFFF"
+                android:text="الرجوع"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/log2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/fra5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="#FFFFFF"
+                android:text="للتسجيل"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/fra5"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/fra6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="84dp"
+                android:background="@color/grey"
+                android:text="الالتزام"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/fra6"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/fra8"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="84dp"
+                android:background="@color/grey"
+                android:text="الشغف للتعلم"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/fra7"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/mta2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="84dp"
+                android:background="@color/grey"
+                android:text="صور شخصية"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/img7"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="43dp"
+                android:layout_marginEnd="252dp"
+                app:srcCompat="@drawable/leaf" />
+
+            <TextView
+                android:id="@+id/tit2"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="108dp"
+                android:layout_marginEnd="51dp"
+                android:text="أساسيات العلوم"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/shr2"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/tit2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="154dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="دورة احترافية لتعليم اساسيات العلوم للاطفال"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/mta2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignTop="@id/shr2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="200dp"
+                android:text="المتطلبات"
+                android:textColor="@color/grey"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/fra8"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/fra7"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="94dp"
+                android:background="@color/grey"
+                android:text="العمر 7 الى 14 سنة"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

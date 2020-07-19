@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main39Activitydr"
+    android:background="@drawable/nsadk2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/emal25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abdullatif@gmail.com"
+                android:textColor="#00FFFFFF" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar28"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="297dp"
+                android:layout_marginTop="39dp"
+                android:layout_marginEnd="62dp"
+                android:background="@color/grey"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <Button
+                android:id="@+id/back4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="572dp"
+                android:layout_marginEnd="165dp"
+                android:background="#FFFFFF"
+                android:text="الرجوع"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/sid3"
+                android:layout_width="370dp"
+                android:layout_height="70dp"
+                android:layout_alignTop="@id/sid"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="142dp"
+                android:background="@color/grey"
+                android:text="حسين رعد"
+                android:textColor="#FFFFFF"
+                android:textSize="45sp" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignTop="@+id/sid"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="148dp"
+                android:layout_marginEnd="305dp"
+                app:srcCompat="@drawable/mail33" />
+
+            <TextView
+                android:id="@+id/onwn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="62dp"
+                android:layout_marginEnd="141dp"
+                android:text="دكاترتنا"
+                android:textColor="@color/grey"
+                android:textSize="55sp" />
+
+            <TextView
+                android:id="@+id/sid"
+                android:layout_width="370dp"
+                android:layout_height="70dp"
+                android:layout_alignTop="@id/onwn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="142dp"
+                android:background="@color/grey"
+                android:text="عيسى محمد"
+                android:textColor="#FFFFFF"
+                android:textSize="45sp" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignTop="@+id/onwn"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="146dp"
+                android:layout_marginEnd="305dp"
+                app:srcCompat="@drawable/mail33" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

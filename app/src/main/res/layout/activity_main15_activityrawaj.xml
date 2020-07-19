@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main15Activityrawaj"
+    android:background="@drawable/nsadk6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/emal3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abdullatifalnajjar03@gmail.com"
+                android:textColor="#00FFFFFF" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar6"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="297dp"
+                android:layout_marginTop="39dp"
+                android:layout_marginEnd="62dp"
+                android:background="@color/grey"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tskappa2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="133dp"
+                android:background="#FFFFFF"
+                android:foreground="@drawable/phone"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/tskappa2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView25"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="#FFFFFF"
+                android:text="للتسجيل"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/textView31"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="@color/grey"
+                android:text="الالتزام"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/textView32"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="@color/grey"
+                android:text="كويتي"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView34"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="@color/grey"
+                android:text="اتقان اللغة الانجليزية"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="38dp"
+                android:layout_marginEnd="264dp"
+                android:background="#000000"
+                app:srcCompat="@drawable/rawaj" />
+
+            <TextView
+                android:id="@+id/kappa2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="105dp"
+                android:layout_marginEnd="79dp"
+                android:text="RAWAJ"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/editText2"
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="195dp"
+                android:layout_marginEnd="11dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="أكاديمية رواج هي أكاديمية تسعى الى انشاء قادة المستقبل من خلال الدورات والورش المتميزة"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/editText2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="240dp"
+                android:text="المتطلبات"
+                android:textColor="@color/grey"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView33"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="108dp"
+                android:background="@color/grey"
+                android:text="عمر بين 15 -19 سنة"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tskappa2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="225dp"
+                android:background="#FFFFFF"
+                android:foreground="@drawable/insta1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/button14"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="#FFFFFF"
+                android:text="الرجوع"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

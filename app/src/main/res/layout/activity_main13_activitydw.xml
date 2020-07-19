@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main13Activitydw"
+    android:background="@drawable/nsadk6">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar4"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="297dp"
+                android:layout_marginTop="39dp"
+                android:layout_marginEnd="62dp"
+                android:background="@color/grey"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <Button
+                android:id="@+id/back10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView15"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="160dp"
+                android:background="#FFFFFF"
+                android:text="الرجوع"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_alignTop="@id/textView17"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="170dp"
+                android:background="@color/grey"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="45sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignTop="@+id/textView15"
+                android:layout_alignEnd="@+id/textView15"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="153dp"
+                app:srcCompat="@drawable/marketing" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="206dp"
+                android:layout_height="106dp"
+                android:layout_alignTop="@+id/textView15"
+                android:layout_alignEnd="@+id/textView15"
+                android:layout_marginTop="43dp"
+                android:layout_marginEnd="-20dp"
+                android:text="Business"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_alignTop="@id/textView19"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="170dp"
+                android:background="@color/grey"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="45sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="126dp"
+                android:layout_height="178dp"
+                android:layout_alignTop="@+id/textView17"
+                android:layout_alignEnd="@+id/textView17"
+                android:layout_marginTop="-19dp"
+                android:layout_marginEnd="166dp"
+                app:srcCompat="@drawable/versus" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="206dp"
+                android:layout_height="106dp"
+                android:layout_alignTop="@+id/textView17"
+                android:layout_alignEnd="@+id/textView17"
+                android:layout_marginTop="43dp"
+                android:layout_marginEnd="-20dp"
+                android:text="Debate"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_alignTop="@id/textView21"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="169dp"
+                android:layout_marginEnd="111dp"
+                android:background="@color/grey"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="45sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_alignTop="@+id/textView19"
+                android:layout_alignEnd="@+id/textView19"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="160dp"
+                app:srcCompat="@drawable/arcamera" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="233dp"
+                android:layout_height="51dp"
+                android:layout_alignTop="@+id/textView19"
+                android:layout_alignEnd="@+id/textView19"
+                android:layout_marginTop="59dp"
+                android:layout_marginEnd="-36dp"
+                android:text="PHOTOGRAPH"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_alignTop="@id/textView23"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="170dp"
+                android:background="@color/grey"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="45sp" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_alignTop="@+id/textView21"
+                android:layout_alignEnd="@+id/textView21"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="156dp"
+                app:srcCompat="@drawable/coded1" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="206dp"
+                android:layout_height="106dp"
+                android:layout_alignTop="@+id/textView21"
+                android:layout_alignEnd="@+id/textView21"
+                android:layout_marginTop="43dp"
+                android:layout_marginEnd="-20dp"
+                android:text="Coded"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_alignTop="@id/textView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="130dp"
+                android:background="@color/grey"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="45sp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignTop="@+id/textView23"
+                android:layout_alignEnd="@+id/textView23"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="182dp"
+                app:srcCompat="@drawable/drawing" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="206dp"
+                android:layout_height="106dp"
+                android:layout_alignTop="@+id/textView23"
+                android:layout_alignEnd="@+id/textView23"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="-17dp"
+                android:text="DRAWING"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="37sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="68dp"
+                android:text="تبي تستفيد ؟"
+                android:textColor="@color/grey"
+                android:textSize="45sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

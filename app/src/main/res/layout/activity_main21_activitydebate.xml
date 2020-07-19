@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main21Activitydebate"
+    android:background="@drawable/nsadk6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/emal9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abdullatif@gmail.com"
+                android:textColor="#00FFFFFF" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar11"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="297dp"
+                android:layout_marginTop="39dp"
+                android:layout_marginEnd="62dp"
+                android:background="@color/grey"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <Button
+                android:id="@+id/instag4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tsj4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="225dp"
+                android:background="#FFFFFF"
+                android:foreground="@drawable/insta1" />
+
+            <Button
+                android:id="@+id/rgoo4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/instag4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="#FFFFFF"
+                android:text="الرجوع"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/tsj4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/shroo16"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="#FFFFFF"
+                android:text="للتسجيل"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/shroo16"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/shroo17"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="84dp"
+                android:background="@color/grey"
+                android:text="الالتزام"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/shroo17"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/shroo18"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="84dp"
+                android:background="@color/grey"
+                android:text="الشغف للتعلم"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/shroo18"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/shroo20"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="84dp"
+                android:background="@color/grey"
+                android:text="صور شخصية"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="43dp"
+                android:layout_marginEnd="252dp"
+                app:srcCompat="@drawable/versus" />
+
+            <TextView
+                android:id="@+id/tital4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="109dp"
+                android:layout_marginEnd="54dp"
+                android:text="DEBATE"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/des4"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/tital4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="154dp"
+                android:ems="10"
+                android:gravity="start|top"
+
+                android:text="دورة تعليم المناظرات وكيفية الحوار والنقاش بين الافراد لزيادة الوعي والفهم والاقناع في مجتعنا"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/shroo19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignTop="@id/des4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="230dp"
+                android:text="المتطلبات"
+                android:textColor="@color/grey"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/shroo20"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/shroo19"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="94dp"
+                android:background="@color/grey"
+                android:text="العمر 19 سنة وفوق"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

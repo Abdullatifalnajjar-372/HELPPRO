@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivitytry"
+    android:background="@drawable/nsadk6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar33"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="297dp"
+                android:layout_marginTop="39dp"
+                android:layout_marginEnd="62dp"
+                android:background="@color/grey"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tskappa"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="133dp"
+                android:background="#FFFFFF"
+                android:foreground="@drawable/phone" />
+
+            <Button
+                android:id="@+id/tskappa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView30"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="#FFFFFF"
+                android:text="للتسجيل"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/textView29"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="@color/grey"
+                android:text="مهارات الحاسوب"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/textView28"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="@color/grey"
+                android:text="مسؤول"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView27"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="@color/grey"
+                android:text="ثنائي اللغة"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="54dp"
+                android:layout_marginEnd="264dp"
+                app:srcCompat="@drawable/ke1" />
+
+            <TextView
+                android:id="@+id/kappa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="107dp"
+                android:layout_marginEnd="62dp"
+                android:text="Kappa Epsilon"
+                android:textSize="36sp" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="293dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="204dp"
+                android:layout_marginEnd="69dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="هي منظمة مختلطة مهنية مصممة لتطوير أعضائها إلى قادة المستقبل.  تهدف إلى إعداد الشباب للكلية ومجال العمل ."
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/editText"
+                android:layout_marginTop="320dp"
+                android:text="المتطلبات"
+                android:textColor="@color/grey"
+                android:textSize="45sp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView26"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="108dp"
+                android:background="@color/grey"
+                android:text="العمر 15 الى 19 سنة"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tskappa"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="225dp"
+                android:background="#FFFFFF"
+                android:foreground="@drawable/insta1" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/button16"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="#FFFFFF"
+                android:text="الرجوع"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/emal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mailto:info@kappaepsilonkw.com"
+                android:textColor="#00FFFFFF" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

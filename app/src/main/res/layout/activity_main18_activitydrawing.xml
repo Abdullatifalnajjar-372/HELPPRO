@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main18Activitydrawing"
+    android:background="@drawable/nsadk6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar34"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="297dp"
+                android:layout_marginTop="39dp"
+                android:layout_marginEnd="62dp"
+                android:background="@color/grey"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <TextView
+                android:id="@+id/emal6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abdullatifalnajjar03@gmail.com"
+                android:textColor="#00FFFFFF" />
+
+            <Button
+                android:id="@+id/instag"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tsj"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="225dp"
+                android:background="#FFFFFF"
+                android:foreground="@drawable/insta1" />
+
+            <Button
+                android:id="@+id/rgoo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/instag"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="#FFFFFF"
+                android:text="الرجوع"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/tsj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/shroo5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="#FFFFFF"
+                android:text="للتسجيل"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/shroo5"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/shroo4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="84dp"
+                android:background="@color/grey"
+                android:text="الالتزام"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/shroo4"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/shroo3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="84dp"
+                android:background="@color/grey"
+                android:text="جلب الادوات الخاصة"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/shroo3"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/shroo2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="84dp"
+                android:background="@color/grey"
+                android:text="خبرة بالرسم"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="43dp"
+                android:layout_marginEnd="243dp"
+                app:srcCompat="@drawable/drawing" />
+
+            <TextView
+                android:id="@+id/tital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="82dp"
+                android:layout_marginEnd="57dp"
+                android:text="Drawing"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/des"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/tital"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="154dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="دورة الرسم المتطور لتطوير قدرات الرسامين وتتضمن الدورة تعليم جميع انواع الرسم مثل الاكريلك والزيتي وغيره"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/shroo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignTop="@id/des"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="250dp"
+                android:text="المتطلبات"
+                android:textColor="@color/grey"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/shroo2"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/shroo"
+                android:layout_marginTop="94dp"
+            android:layout_centerHorizontal="true"
+                android:background="@color/grey"
+                android:text="رسوم 200 دك"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

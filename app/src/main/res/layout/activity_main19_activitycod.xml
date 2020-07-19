@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main19Activitycod"
+    android:background="@drawable/nsadk6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/emal7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hello@joincoded.com"
+                android:textColor="#00FFFFFF" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar9"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="297dp"
+                android:layout_marginTop="39dp"
+                android:layout_marginEnd="62dp"
+                android:background="@color/grey"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <Button
+                android:id="@+id/instag2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/tsj2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="225dp"
+                android:background="#FFFFFF"
+                android:foreground="@drawable/insta1" />
+
+            <Button
+                android:id="@+id/rgoo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/instag2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="#FFFFFF"
+                android:text="الرجوع"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/tsj2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/shroo8"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="#FFFFFF"
+                android:text="للتسجيل"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/shroo6"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/shroo10"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="84dp"
+                android:background="@color/grey"
+                android:text="عمر 20 سنة وفوق"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/shroo7"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/shroo6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="84dp"
+                android:background="@color/grey"
+                android:text="لابتوب خاص"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/shroo8"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/shroo7"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="84dp"
+                android:background="@color/grey"
+                android:text="صور شخصية"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="43dp"
+                android:layout_marginEnd="243dp"
+                app:srcCompat="@drawable/coded1" />
+
+            <TextView
+                android:id="@+id/tital2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="82dp"
+                android:layout_marginEnd="57dp"
+                android:text="CODED"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/des2"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/tital2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="154dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="البرنامج التدريبي الأول حول البرمجة في الشرق الأوسط  كل ما تحتاجه لتعلمه لبناء شركة ناشئة في مجال التكنولوجيا"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/shroo9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignTop="@id/des2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="250dp"
+                android:text="المتطلبات"
+                android:textColor="@color/grey"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/shroo10"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/shroo9"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="94dp"
+                android:background="@color/grey"
+                android:text="رسوم 200 دك"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

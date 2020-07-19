@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nsadk2"
+    tools:context=".Main5Activity">
+
+    <TextView
+        android:id="@+id/register4"
+        android:layout_width="wrap_content"
+        android:layout_height="82dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="28dp"
+        android:text="تبي اي تخصص ؟"
+        android:textColor="@color/grey"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/dr2"
+        android:layout_width="300dp"
+        android:layout_height="74dp"
+        android:layout_alignTop="@+id/register4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@color/grey"
+        android:text="الامن"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/teach2"
+        android:layout_width="300dp"
+        android:layout_height="74dp"
+        android:layout_alignTop="@+id/hnda2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:background="@color/grey"
+        android:text="تبي تشتغل معانا ؟"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/hnda2"
+        android:layout_width="300dp"
+        android:layout_height="74dp"
+        android:layout_alignTop="@+id/dr2"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="51dp"
+        android:background="@color/grey"
+        android:text="البزنس"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp" />
+
+    <Button
+        android:id="@+id/back3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="716dp"
+        android:layout_marginEnd="229dp"
+        android:background="#FFFFFF"
+        android:text="الرجوع"
+        android:textColor="@color/grey"
+        android:textSize="36sp" />
+
+</RelativeLayout>

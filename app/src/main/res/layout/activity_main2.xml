@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nsadk2"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="حساب جديد"
+        android:textColor="@color/grey"
+        android:textSize="45sp"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:id="@+id/tname"
+        android:layout_width="241dp"
+        android:layout_height="84dp"
+        android:layout_alignTop="@+id/register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:background="@color/grey"
+        android:ems="10"
+        android:hint="  الاسم                 "
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/tage"
+        android:layout_width="241dp"
+        android:layout_height="84dp"
+        android:layout_alignTop="@+id/tname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@color/grey"
+        android:ems="10"
+        android:hint="  العمر"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30sp" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="241dp"
+        android:layout_height="84dp"
+        android:layout_alignTop="@+id/tage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@color/grey"
+        android:ems="10"
+        android:hint="  البريد الالكتروني"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="241dp"
+        android:layout_height="84dp"
+        android:layout_alignTop="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@color/grey"
+        android:ems="10"
+        android:hint="  كلمة السر "
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30sp" />
+
+
+    <EditText
+        android:id="@+id/passwordcon"
+        android:layout_width="241dp"
+        android:layout_height="84dp"
+        android:layout_alignTop="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@color/grey"
+        android:ems="10"
+        android:hint="  تأكيد كلمة السر"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/tsjeel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="تسجيل"
+        android:textColor="#000000"
+        android:textSize="45sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/passwordcon"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="رجوع"
+        android:textColor="@color/grey"
+        android:textSize="30sp"
+        android:layout_alignTop="@+id/tsjeel"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="648dp"
+        android:layout_marginEnd="87dp"
+        android:background="#FFFFFF"
+        android:secondaryProgressTint="@color/colorAccent" />
+</RelativeLayout>

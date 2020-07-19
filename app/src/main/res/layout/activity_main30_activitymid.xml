@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main30Activitymid"
+    android:background="@drawable/nsadk6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/emal18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abdullatif@gmail.com"
+                android:textColor="#00FFFFFF" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar20"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="297dp"
+                android:layout_marginTop="39dp"
+                android:layout_marginEnd="62dp"
+                android:background="@color/grey"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <Button
+                android:id="@+id/rgoo13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/mailthem"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:background="#FFFFFF"
+                android:text="الرجوع"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/onwan"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="69dp"
+                android:layout_marginEnd="176dp"
+                android:text="الطب"
+                android:textColor="@color/grey"
+                android:textSize="55sp" />
+
+            <TextView
+                android:id="@+id/side"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/onwan"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="123dp"
+                android:text="نظراً لاهمية مهن الطب وخطورتها سنطلب منك التواصل مع الجهات المعنية بتخصصات الطب للاستسفار عن المهن المتوفرة عبر الايميل "
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/side2"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/side"
+                android:layout_marginTop="300dp"
+                android:layout_centerHorizontal="true"
+                android:text="يرجى ارسال ايميل وتزويدهم بالاسم الثلاثي ورقم الهاتف وسيتم التواصل معك بخصوص الوظيفة ومتطلباتها"
+                android:textColor="@color/grey"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/mailthem"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/side2"
+                android:layout_marginTop="250dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/grey"
+                android:fontFamily="serif"
+                android:text="EMAIL"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

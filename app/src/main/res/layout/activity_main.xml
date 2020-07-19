@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/nsadk">
+
+    <Button
+        android:id="@+id/login3"
+        android:layout_width="122dp"
+        android:layout_height="63dp"
+        android:layout_alignTop="@id/login2"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="170dp"
+        android:background="#FFFFFF"
+        android:text="تسجيل"
+        android:textColor="@color/grey"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/login2"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="109dp"
+        android:background="@color/grey"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="كلمة السر"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:layout_alignTop="@id/login2"
+        android:text="حساب جديد ؟"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#FFFFFF"
+        android:text="تسجيل حساب جديد"
+        android:textColor="#908D8D"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="289dp"
+        android:layout_marginEnd="89dp"
+        android:background="@color/grey"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="البريد الالكتروني"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/login3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:text="No of attempsts remaining"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+</RelativeLayout>

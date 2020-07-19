@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nsadk2"
+    tools:context=".Main4Activity">
+
+    <TextView
+        android:id="@+id/register3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="53dp"
+        android:text="تبي اي تخصص ؟"
+        android:textColor="@color/grey"
+        android:textSize="43sp" />
+
+    <TextView
+        android:id="@+id/dr"
+        android:layout_width="300dp"
+        android:layout_height="74dp"
+        android:layout_alignTop="@+id/register3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@color/grey"
+        android:text="الطب"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/dr3"
+        android:layout_width="300dp"
+        android:layout_height="74dp"
+        android:layout_alignTop="@+id/teach"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:background="@color/grey"
+        android:text="الفن"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/teach"
+        android:layout_width="300dp"
+        android:layout_height="74dp"
+        android:layout_alignTop="@+id/hnda"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:background="@color/grey"
+        android:text="التدريس"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/hnda"
+        android:layout_width="300dp"
+        android:layout_height="74dp"
+        android:layout_alignTop="@+id/dr"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="51dp"
+        android:background="@color/grey"
+        android:text=" الهندسة"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp" />
+
+    <Button
+        android:id="@+id/back2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="716dp"
+        android:layout_marginEnd="229dp"
+        android:background="#FFFFFF"
+        android:text="الرجوع"
+        android:textColor="@color/grey"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="715dp"
+        android:layout_marginEnd="106dp"
+        android:background="@color/grey"
+        android:text="المزيد"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="297dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="62dp"
+        android:background="@color/grey"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+</RelativeLayout>
